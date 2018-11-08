@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/bootstrap.css" >
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/ce.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <title>少儿编程</title>
+
+</head>
+<body>
+    <!--//导航栏组件-->
+    <div class="width-col">
+        <nav class="container navbar-default navbar background " role="navigation">
+
+            <div class="navbar-header">
+                            <span>
+                            <a href="index.html"><img src="../images/nav-icon.png"/></a></span>
+
+                <div class="nav-position"><button type="button" class="navbar-toggle  " data-toggle="collapse" data-target="#navbar-menu">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar navbar-nav navbar-right ">
+                    <li class="nav-head-border"><a href="#">首 页</a></li>
+                    <li class=""><a href="#pen">课程体系</a></li>
+                    <li class=""><a  href="#class1">上课地点</a></li>
+                    <li class=""><a href="about-us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <!--//轮播图-->
+    <div id="top"class="container car-position">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../images/banner1.png" /></div>
+                <div class="item">
+
+                    <img src="../images/banner2.png"/></div>
+                <div class="item">
+
+                    <img src="../images/banner3.png" /></div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--//为什么要让孩子学习编程。-->
+    <div class="container why-learn">
+    <img class="" src="../images/why-learn.png"/>
+    </div>
+    <div class="container fillet">
+        <h4 class="stand">让孩子站在人工智能的时代前沿</h4>
+        <div class="skill">
+            <div class="skill-img col-lg-3 col-md-6 col-xs-12">
+                <div class="skill-img1"></div>
+                <span>拥有逻辑思维</span>
+            </div>
+            <div class="skill-img col-lg-3 col-md-6 col-xs-12">
+                <div class="skill-img2"></div>
+                <span>掌握编程技能</span>
+            </div>
+            <div class="skill-img col-lg-3 col-md-6 col-xs-12">
+                <div class="skill-img3"></div>
+                <span>拥有批判思维</span>
+            </div>
+            <div class="skill-img col-lg-3 col-md-6 col-xs-12">
+                <div class="skill-img4"></div>
+                <span>拥有创新能力</span>
+            </div>
+        </div>
+        <div class="sort-line"></div>
+        <div class="achievement">从兴趣到成就</div>
+        <div class="create">让孩子从程序使用者变为创作者</div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-lg-4 game">
+                <div class="game-applet">Scratch小程序</div>
+                <div class="game-box">
+                    <img class="game-img" src="../images/game1.png"/>
+                    <p class="works">作品1</p>
+                    <p>反弹小球</p>
+                    <p  class="game-author"><img src="../images/gameAuthor.png"/>郑明阳</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 game">
+                <div class="game-applet">Scratch小程序</div>
+                <div class="game-box" >
+                    <img class="game-img" src="../images/game2.png"/>
+                    <p class="works">作品2</p>
+                    <p>小猫找朋友</p>
+                    <p  class="game-author"><img src="../images/gameAuthor.png"/>刘博源</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 game">
+                <div class="game-applet">Scratch小程序</div>
+                <div class="game-box">
+                    <img class="game-img" src="../images/game2.png" />
+                    <p class="works">作品3</p>
+                    <p>魔法师的表演</p>
+                    <p class="game-author"><img src="../images/gameAuthor.png"/>
+                        王浩宇</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-us">
+            联系我们 ：固定电话 0371-67913389  王老师 15638891136  王老师 15236287235
+        </div>
+    </div>
+    <div id="pen" class="container codeKing">
+        <img class="" src="../images/ChoiceCodeKing.png"/>
+    </div>
+
+
+
+
+
+
+    <div  class="container select">
+        <p class="select-internet">互联网+奥数培训专家的强强联合</p>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 classroom">
+                <p>互联网领航者打造课程</p>
+                <ul>
+                    <li>IT修真院是一家优秀的成人培训机构，自创办以来学员就业率99.5%，业内一致好评，BAT、搜狐、京东大咖亲自代言</li>
+                    <li>全国范围共设7大分院，北京、上海、深圳、武汉、成都、郑州、西安，足迹遍布全国</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6 select-img">
+                <img src="../images/classroom.png"/>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6  select-img">
+                <img src="../images/teacher.png"/></div>
+            <div class="col-xs-12 col-md-12 col-lg-6  classroom">
+                <p>知名奥数培训教师指导</p>
+                <ul>
+                    <li>
+                        畅逸博教育奥数老师团队二十余年少儿奥数培训经验，知名奥数培训教师指导。</li>
+                    <li>精通儿童心理学，因材施教充分发掘儿童创造力，想象力</li>
+                </ul>
+            </div>
+        </div>
+        <div class="all-dc">全博士课程顾问阵容</div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-xs-12 doctor">
+                <div class="doctorint">
+                    <div class="doctorint-img1"></div>
+                    <p>苏博士</p>
+                </div>
+                <p class="doctor-title">医学博士后</p>
+                <p class="doctor-title">中华医学会数字骨科学组委员、</p>
+                <p class="doctor-title">SICOT部创伤学会委员、</p>
+                <p class="doctor-title">数字骨科学会委员</p>
+                <p class="doctor-main">未来是数字的世界</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-xs-12 doctor">
+                <div class="doctorint">
+                    <div class="doctorint-img2"></div>
+                    <p>杜博士</p>
+                </div>
+                <p class="doctor-title">副教授</p>
+                <p class="doctor-title">河南省教师教育专家，</p>
+                <p  class="doctor-title">长期从事青少年与新媒体教育研究工作中</p>
+                <p class="doctor-title"></p>
+                <p class="doctor-main">人工智能+教育，未来无限可能</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-xs-12 doctor">
+                <div class="doctorint">
+                    <div class="doctorint-img3"></div>
+                    <p>薛博士</p>
+                </div>
+                <p class="doctor-title">硕士研究生导师</p>
+                <p class="doctor-title">中国工艺美术学会会员，</p>
+                <p class="doctor-title">中国艺术人类学会会员，</p>
+                <p class="doctor-title">主持国家级和省部级研究课题4项</p>
+                <p class="doctor-main">艺术与科技是人类文明的双引擎</p>
+            </div>
+        </div>
+        <!--丰富的课程体系-->
+        <p></p>
+        <div class="row fuil" >
+            <p class="fuil-class">丰富的课程体系</p>
+            <div class="col-xs-12 col-md-12 col-lg-4 suit">
+                <img src="../images/graph.png" height="42" width="42"/>
+                <p>LEGO乐高</p>
+                <ul>
+                    <li>适合年龄1-5岁</li>
+                </ul>
+                <span>创意拼接，妙不可言让每一位孩子亲自动手搭建机器人模型，开启丰富想象力</span>
+            </div>
+            <div class="col-lg-4 suit-pen">
+                <img src="../images/pen.png" height="255" width="278"/>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4 suit">
+                <img src="../images/data.png" height="42" width="42"/>
+                <p>机器人</p>
+                <ul>
+                    <li>适合年龄5-7岁</li>
+                </ul>
+                <span>通过编写Scratch代码去命令机器人，是我们下一代必备的工作技能和生活技能</span>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4 suit">
+                <img src="../images/scratchLogo.png" height="42" width="42"/>
+                <p>Scratch</p>
+                <ul>
+                    <li>适合年龄7-12岁</li>
+                </ul>
+                <span>由麻省理工(MIT)设计开发的少儿编程工具，无可挑剔的少儿编程入门语言</span>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4 suit">
+                <img src="../images/css.png" height="42" width="42"/>
+                <p>Css</p>
+                <ul>
+                    <li>适合年龄12-15岁</li>
+                </ul>
+                <span>CSS 文件编码技能是WEB工程师的必备技能，是少儿编程不可缺少的一部分</span>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4 suit">
+                <img src="../images/python.png" height="42" width="42"/>
+                <p>Python</p>
+                <ul>
+                    <li>适合年龄15岁以上</li>
+                </ul>
+                <span>互联网时代的新宠，学习大数据与机械必备语言，简洁清晰、强大、胶水语言</span>
+            </div>
+        </div>
+        <div class="fun">
+            <div class="col-lg-6  col-xs-12 fun-title">
+                <p>有趣的课堂内容</p>
+                <div><span class="dot"></span><span class="funint">二十余年的少儿教育经验的教师精心教导，激发孩子的聪明才智</span></div>
+                <div><span class="dot"></span><span class="funint">每节课都有独特的剧情带入，让孩子体验到有趣的课堂内容</span></div>
+                    <div><span class="dot"></span><span class="funint">
+讲述与课堂相关的现代黑科技，带学生体验当代前沿黑科技</span></div>
+            </div>
+            <div class="col-lg-6   col-xs-12 fun-img">
+                <img src="../images/classContent.png"/>
+            </div>
+        </div>
+
+        <p class="black-technology">黑科技延伸</p>
+        <div class="row widdth">
+            <div class="col-md-6 col-xs-12 col-lg-3  ">
+                <div class="introduce"><img src="../images/vr.png" height="169" width="230"/></div>
+                <p class="black-technology-int">虚拟现实</p>
+                <p class="black-technology-jie">vive pro VR智能眼镜
+                    </p>
+                <p class="black-technology-jie">孩子们通过三维虚拟学习环境和编码近距离接触</p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-lg-3 ">
+                <div class="introduce"><img src="../images/discern.png" height="169" width="230"/></div>
+                <p class="black-technology-int">3D打印机</p>
+                <p class="black-technology-jie">603S高精度3维打印机
+                   </p>
+                <p class="black-technology-jie"> 让孩子们通过自己想象力，创造从无到有的过程</p>
+                <p class="black-technology-jie"></p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-lg-3 ">
+                <div class="introduce"><img src="../images/robot.jpg" height="169" width="230"/></div>
+                <p class="black-technology-int">智能机器人</p>
+                <p class="black-technology-jie">MINDSTORMS第三代机器人
+                   </p>
+                <p class="black-technology-jie"> 通过编写程序命令机器人，开启丰富想象力</p>
+                <p class="black-technology-jie"></p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-lg-3 ">
+                <div class="introduce"><img src="../images/ai.png" height="169" width="230"/></div>
+                <p class="black-technology-int">其他智能硬件</p>
+                <p class="black-technology-jie">激光键盘</p>
+                <p class="black-technology-jie">联想看家机器人
+                </p>
+                <p class="black-technology-jie">无线激光投影键盘
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container faceto">
+        <img src="../images/faceTofuture.png" />
+    </div>
+    <div class="container facetofuture">
+        <p class="shiye">城镇登记失业率（%）</p>
+        <img  class="datemate" src="../images/dataMap.png"/>
+        <div class="row widdth">
+            <div class="col-xs-12 col-lg-6 box ">
+                <div class="box-box">
+                <div><img src="../images/study.jpg" /></div>
+                <p class="facetofuture-title">编程王为孩子将来打基础</p>
+                <p class="facetofuture-contai">在思考分析问题和完成程序的过程中去培养编程思维，是培养孩子细心和专注的最佳工具。在组队完成创作作品的过程中，提升孩子的团队协作能力。编程将逐渐纳入基础教育，提前学习编程，为留学升学加码</p>
+                </div>
+        </div>
+            <div class="col-xs-12 col-lg-6 box">
+                <div class="box-box">
+                <div><img src="../images/school.jpg"/></div>
+                <p class="facetofuture-title">特招或考入名校</p>
+                <p class="facetofuture-contai">2018年1月，教育部颁发的《新课程标准》指出：信息技术将从兴趣课程变为必修课程，并大幅度提升了学生在编程、计算思维、算法方面的思维要求，给予学生更大的发展选择空间（浙江省已明确要求）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="class-environment">上课环境</p>
+    <p class="class-environment-add">地处郑州市金水区，有良好的教学环境，室内设备齐全，拥有少儿编程最先进的设备</p>
+    <div class="container">
+    <div class="row widdth" id ="class1">
+        <div class="col-lg-4 col-xs-12 environment">
+            <img src="../images/environment1.jpg" /></div>
+        <div class="col-lg-4 col-xs-12 environment">
+            <img src="../images/environment2.jpg"/></div>
+        <div class="col-lg-4 col-xs-12 environment">
+            <img src="../images/environment3.jpg" /></div>
+    </div>
+    </div>
+    <p class="class-environment" >上课地点</p>
+    <p class="class-environment-add">地址：河南省郑州市金水区健康路159号发展大厦3楼</p>
+    <div class="container"> <div class=" about-img"></div></div>
+
+    </div>
+
+
+<!--//底部信息-->
+    <footer>
+        <div class="container">
+            <div class="col-lg-6 col-md-6 col-xs-12 foot-contact">
+                <p><span>客服电话：</span>0371-67913389</p>
+                <p><span>工作时间：</span>周一至周日</p>
+                <p><span>手机号码：</span>15638891136</p>
+                <p><span>总部地址：</span>上海市宝山区绿地领海13号楼1302</p>
+                <div type="button" class="btn btn-success btn-back">联系我们</div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-xs-12 foot-wechat">
+                <img src="../images/weChat.png" />
+                <p>扫描二维码或搜索编程王即可关注</p>
+            </div>
+        </div>
+    </footer>
+    <!--侧边栏-->
+    <div class="sidebarParent">
+        <div class="sidebarRight ">
+            <a  class="circle qqService" target="_blank"  title="点击进行在线聊天" href="http://wpa.qq.com/msgrd?v=3&uin=1145139410&site=qq&menu=yes">
+                <img class="circle_logo qqService_img" border="0" src="../images/qqService.png" alt="点击进行在线聊天"/>
+                <!--文字默认隐藏-->
+                <div class="text-white qqService_text dn">
+                    <span class="text-white">在线<br/>咨询</span>
+                </div>
+            </a>
+            <div class="circle phoneService">
+                <img class="circle_logo phoneService_img" src="../images/phoneService.png" >
+                <div class="text-white phoneService_text dn">
+                    <span class="text-white">联系<br/>我们</span>
+                </div>
+                <div class="phoneService_msg dn">
+                    <div class="mt2 mb2 tc"><span>固话: 0371-67913389</span>
+                    </div>
+                    <div class="rel tc">
+                        <span> 王老师: 15638891136</span>
+                        <span class="triangle-right"></span>
+                    </div>
+                    <div class="mt2 mb2 tc"><span>王老师: 15236287235</span> </div>
+                </div>
+            </div>
+            <div id="toTOP" class="circle toTop"><a href="#top">
+                <img class="circle_logo toTop_img" src="../images/toTop.png" >
+                <div class="text-white toTop_text dn"><span class="text-white">返回<br/>顶部</span></div>
+            </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(488.641868,-11.361113);//定义一个中心点坐标
+        map.centerAndZoom(point,1);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+//向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+//向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+//向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"我的标记",content:"我的备注",point:"113.670939|34.779299",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</html>
